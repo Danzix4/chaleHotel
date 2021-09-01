@@ -14,6 +14,15 @@ a{
 ul{
     list-style: none;
 }
+h2{
+    color:#7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+p{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
 #container{
     background: #ede9cc url(../img/bg-container.png) top center repeat-y;
     margin: 0 auto;
@@ -118,4 +127,34 @@ ul#navegacao a:hover{
 }
 #rodape{
     clear: both;
+    padding: 16px;
+    background: #fff url(../img/bg-rodape.png) repeat-x top;
+    color: #7d7640;
+}
+#conteudo-lateral li{
+    padding: 15px 8px;
+    border-bottom: 2px solid #ede9cc;
+    height: 6em;
+}
+#conteudo-lateral a{
+    font-weight: 700;
+    
+}
+#conteudo-lateral img{
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+#conteudo-lateral h3{
+    color: #7d7640;
+    background: url(../img/ornamento.png) no-repeat top right;
+}
+#conteudo-lateral p{
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: black;
+}
+#conteudo-lateral li:hover {
+    background:#f6f3d6 ;
+    cursor: pointer;
 }
